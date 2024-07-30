@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// Struct untuk menyimpan data barang di gudang
+// Struct untuk menyimpan data barang di gudang.
 struct Gudang
 {
     string nama_barang;
