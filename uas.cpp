@@ -45,7 +45,7 @@ void tambahBarang(vector<Gudang> &gudang)
 {
     Gudang barangBaru;
     cout << "Masukkan nama barang baru: ";
-    cin.ignore(); // Mengabaikan karakter newline dari input sebelumnya
+    cin.ignore(); // Mengabaikan karakter newline dari input sebelumnya.
     getline(cin, barangBaru.nama_barang);
     cout << "Masukkan jumlah stok awal: ";
     cin >> barangBaru.stok;
